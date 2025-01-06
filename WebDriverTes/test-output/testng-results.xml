@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Application login successfully]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="42258" started-at="2024-12-27T14:25:15Z" finished-at="2024-12-27T14:25:57Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="42258" started-at="2024-12-27T14:25:15Z" finished-at="2024-12-27T14:25:57Z">
+      <class name="lisnersTest.Login">
+        <test-method status="PASS" signature="loginApplication()[pri:0, instance:lisnersTest.Login@46d56d67]" name="loginApplication" duration-ms="41939" started-at="2024-12-27T19:55:15Z" finished-at="2024-12-27T19:55:57Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Application login successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginApplication -->
+      </class> <!-- lisnersTest.Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

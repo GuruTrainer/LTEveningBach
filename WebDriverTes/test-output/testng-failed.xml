@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Parameter]">
+  <parameter name="password" value="admin"/>
+  <parameter name="user" value="admin"/>
+  <test name="Parameter(failed)">
+    <parameter name="password" value="admin"/>
+    <parameter name="user" value="admin"/>
+    <classes>
+      <class name="testng.ParameterTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="loginApplication"/>
+          <include name="logoutApplication"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- testng.ParameterTest -->
+    </classes>
+  </test> <!-- Parameter(failed) -->
+</suite> <!-- Failed suite [Parameter] -->

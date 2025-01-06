@@ -1,0 +1,13 @@
+<suite name="Sample">
+	<test name="HelloTest">
+	<!-- 	<classes>
+			<class name="testng.BasicTestNG" />
+			<class name="testng.AnnotationsTest" />
+			<class name="testng.WebDriverTestNG" />
+		</classes> -->
+		
+		<packages>
+		<package name="testng.*"/>
+		</packages>
+	</test>
+</suite>

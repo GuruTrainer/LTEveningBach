@@ -1,0 +1,16 @@
+<suite name="Group">
+	<test name="Group">
+		<groups>
+			<define name="All">
+				<include name="Smoke" />
+				<include name="RegressionTest" />
+			</define>
+			<run>
+				<include name="All" />
+			</run>
+		</groups>
+		<classes>
+			<class name="testng.GroupTest" />
+		</classes>
+	</test>
+</suite>

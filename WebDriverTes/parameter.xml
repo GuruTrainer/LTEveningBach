@@ -1,0 +1,10 @@
+<suite name="Parameter">
+	
+	<test name="Parameter">
+	<parameter name="user" value="admin" />
+	<parameter name="password" value="admin" />
+		<classes>
+			<class name="testng.ParameterTest" />
+		</classes>
+	</test>
+</suite>

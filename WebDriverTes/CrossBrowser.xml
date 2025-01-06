@@ -1,0 +1,8 @@
+<suite name="Cross" >
+	<test name="Cross" >
+		<parameter name="browser" value="Chrome" />
+		<classes>
+			<class name="testng.CrossBrowserTest" />
+		</classes>
+	</test>
+</suite>
