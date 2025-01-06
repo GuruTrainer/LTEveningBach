@@ -12,11 +12,10 @@ public static void main(String[] args) {
 	
 
 	System.setProperty("webdriver.chrome.driver", "C:\\Users\\DELL\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
-	//webdriver instance
+	
 		WebDriver driver=new ChromeDriver();
 		
-		//maximize the window
-		driver.manage().window().maximize();
+		
 		
 		driver.get("https://parabank.parasoft.com/parabank/index.htm");
 		
